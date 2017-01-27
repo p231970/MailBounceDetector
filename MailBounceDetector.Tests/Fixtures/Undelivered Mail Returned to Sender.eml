@@ -1,0 +1,88 @@
+Date: Fri, 27 Jan 2017 14:38:48 -0600 (CST)
+From: MAILER-DAEMON@example.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: p231970@example.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="B53DBAF89C.1485549528/example.com"
+Message-Id: <20170127203848.8D516B0025@example.com>
+
+This is a MIME-encapsulated message.
+
+--B53DBAF89C.1485549528/example.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host example.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<notexistingaddress32973257287238975682@gmail.com>: host
+    gmail-smtp-in.l.google.com[108.177.8.26] said: 550-5.1.1 The email account
+    that you tried to reach does not exist. Please try 550-5.1.1
+    double-checking the recipient's email address for typos or 550-5.1.1
+    unnecessary spaces. Learn more at 550 5.1.1
+    https://support.google.com/mail/?p=NoSuchUser g31si2479008otd.137 - gsmtp
+    (in reply to RCPT TO command)
+
+--B53DBAF89C.1485549528/example.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; example.com
+X-Postfix-Queue-ID: B53DBAF89C
+X-Postfix-Sender: rfc822; p231970@example.com
+Arrival-Date: Fri, 27 Jan 2017 14:38:16 -0600 (CST)
+
+Final-Recipient: rfc822; notexistingaddress32973257287238975682@gmail.com
+Original-Recipient: rfc822;notExistingAddress32973257287238975682@gmail.com
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does
+    not exist. Please try 550-5.1.1 double-checking the recipient's email
+    address for typos or 550-5.1.1 unnecessary spaces. Learn more at 550 5.1.1
+    https://support.google.com/mail/?p=NoSuchUser g31si2479008otd.137 - gsmtp
+
+--B53DBAF89C.1485549528/example.com
+Content-Description: Undelivered Message
+Content-Type: text/plain; charset=us-ascii
+
+  --- Original Headers Below ---
+
+Return-Path: <p231970@example.com>
+Received: from example.com (example.com [10.134.160.170])
+	by example.com (Postfix) with ESMTP id 8F92BAF7CE
+	for <notExistingAddress32973257287238975682@gmail.com>; Fri, 27 Jan 2017 14:38:16 -0600 (CST)
+Received: (qmail 31311 invoked by uid 399); 27 Jan 2017 20:38:25 -0000
+Received: from email.example.com (HELO ?10.0.0.70?) (p231970@example.com@10.134.160.170)
+  by example.com with ESMTPAM; 27 Jan 2017 20:38:25 -0000
+X-Originating-IP: 10.134.160.170
+X-Sender: p231970@example.com
+MIME-Version: 1.0
+Date: Fri, 27 Jan 2017 23:37:42 +0300
+Message-ID: <37F59551A541B42403FFE8699083080100362439@I502400>
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+Subject: Test message for testing mail server settings
+To: notExistingAddress32973257287238975682@gmail.com
+From: p231970@example.com
+X-SCE-Receive: from SendMessage at 2017-01-27T15:37:43.8148517-05:00
+X-AntiSpam-MailScanner-Information: Please contact the ISP for more information
+X-AntiSpam-MailScanner-ID: 8F92BAF7CE.A9821
+X-AntiSpam-MailScanner: Found to be clean
+X-AntiSpam-MailScanner-From: p231970@example.com
+X-Spam-Status: No
+
+
+--B53DBAF89C.1485549528/example.com--
