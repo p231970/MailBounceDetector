@@ -163,6 +163,14 @@ namespace MailBounceDetector.Tests
             Assert.Equal("failed", result.Action);
         }
 
+        [Fact]
+        public void NonExistingMailbox1()
+        {
+            var message = MimeMessage.Load(OpenFixture("Undelivered Mail Returned to Sender.eml"));
+            var result = BounceDetector.Detect(message);
+        }
+
+
         private Stream OpenFixture(string name)
         {
             var type = GetType();
